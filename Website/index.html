@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Warwick Porfolio</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/ebce9f9423.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+
+			<div class="logo">
+				<img src="images/logo_des.png" alt="logo image">
+			</div>
+			<button class ="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!--Introduction-->
+		<section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Warwick Clark</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+			<img src="images/logo.jpg" height="300" wigth="300" alt="logo image" class="intro__img">
+		</section>
+		
+		<!--My Services-->
+		<section class="my-services" id="services">
+			<h2 class="section__title section__title--services">What I do</h2>
+
+			<div class ="services">
+				<div class="service">
+					<h3>Python</h3>
+					<p>
+						My introduction to coding began with Python. I have worked primaraly 
+						with python, and find it to be the easiest, fastest and most dynamic 
+						language to code with. I have used Selenium, Pandas, Django, Flask and 
+						Tkinter in quite a few projects, and can't wait to make more projects 
+						with this amazing language!
+					</p>
+					<div class="my-work-logos">
+						<i class="fab fa-python"></i>
+					</div>
+				</div> <!--End service-->
+				<br>
+				<div class="service">
+					<h3>Web dev</h3>
+					<p>
+						I have done a few projects for clients, and for training. I have aquired 
+						certificates for HTML and CSS, and have made half a dozen websites 
+						(including this one) from scratch, to learn the basics of web dev. 
+						I'm still learning JS and other Frontend frameworks, and am very keen to 
+						continue learning and honing my web dev skills.   
+					</p>
+					<div class="my-work-logos">
+						<i class="fab fa-html5">.</i>
+						<i class="fab fa-css3-alt">.</i>
+						<i class="fab fa-js-square">.</i>
+					</div>
+				</div> <!--End service-->
+				<div class="service">
+					<h3>Design</h3>
+					<p>
+						While I am very new to the design area, I am having a lot of fun doing it!!
+						I have been training on Figma for wireframes, and Gimp for images. I try to 
+						spend at least 4 hours a week to train on these platforms. I have also done 
+						a few videos using VSDC and Fuze.tv video software to create training videos
+						and paintball videos. 
+					</p>
+					<div class="my-work-logos">
+						<i class="fab fa-figma"></i>
+					</div>
+				</div> <!--End service-->
+			</div>
+
+			<a href="#work" class="btn">My Work</a>
+		</section>
+		<!--About-->
+		<section class="about-me" id="about">
+           	<h2 class="section__title section__title--about">Who I am</h2>
+          	<p class="section__subtitle section__subtitle--about">Designer & developer based out of NYC</p>
+           
+           	<div class="about-me__body">
+               	<p>
+               		After I completed high school, I left to the United Kingdom and then the United States. 
+               		I became a chef, and worked in many different positions, from line cook, pastry 
+               		chef, butcher/ fish monger to management in the kitchen. After seven years, I returned 
+               		to South Africa and went to culinary school. I achieved my diploma in Culinary arts, and went on to work and manage many restaurants. I even started a very successful restaurant franchise. 
+               	</p>
+               	<p>
+               		Shortly prior to Covid 19, I started learning how to code. Python was my language of 
+               		choice and I began learning all the wonderful possibilities of coding. Creating basic 
+               		games and apps, to building blogs and web apps with Flask and Django. I was hooked 
+               		with creating amazing projects. When Covid 19 caused issues in the hospitality industry, 
+               		I left the restaurant business.
+               	</p>
+               	<p>
+               		During lockdown, I did a Hyperion bootcamp in Software Engineering and continued working 
+               		on personel projects. Video editting, web dev and more difficult projects became 
+               		my daily goals. I received a job as an intern, and started working on projects for clients 
+               		and started my journey into software engineering.
+               	</p>
+               	<p>I continue to learn new frameworks, platforms and languages all the time, and wish to carry on  
+               		learning as much as possible.</p>
+           	</div>
+			<img src="images/bust.PNG" alt="bust image"class="about-me__img">
+		</section>
+		
+		<!-- Slideshow container -->
+        <section class="test-caro">   
+			<div class="slideshow-container">
+				<h1 class="carousel">
+                My <strong>Photography</strong></h1>
+				
+		  		<!-- Full-width images with number and caption text -->
+		  		<div class="mySlides fade">
+		    		<img src="images/dessert2.jpg" style="width:100%">
+		    		<div class="text">Gin and Tonic jelly</div>
+		  		</div>
+
+				<div class="mySlides fade">
+				   	<img src="images/butternut.jpg" style="width:100%">
+				   <div class="text">Quinoa with roasted butternut crisps and beetroot waffle chips</div>
+				</div>
+
+				<div class="mySlides fade">
+				    <img src="images/basil_pasta.JPG" style="width:100%">
+				    <div class="text">Chicken and sundried tomato pasta in a basil pesto sauce</div>
+				</div>
+
+				<div class="mySlides fade">
+				    <img src="images/ceaser.jpg" style="width:100%">
+				    <div class="text">Ceaser salad inside a parmesan cone</div>
+				</div>
+
+				  <!-- Next and previous buttons -->
+				 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+		</section> 
+		<!-- The dots/circles -->
+		<br><br><br><br>
+		</div>
+
+		<!--My work-->
+		<section class="my-work" id="work">
+			<h2 class="section__title section__title--work">My Work</h2>
+			<p class="section__subtitle section__subtitle--work">Projects I have done</p>
+			<div class="portfolio">
+				<!--Number1 *-->
+				<a href="vote.html" class="portfolio__item">
+					<img src="images/code2.jpg" alt="portfolio1" class="portfolio__img">
+				</a>
+				<!--Number2 *-->
+				<a href="carol.html" class="portfolio__item">
+					<img src="images/carol1.png" alt="portfolio2" class="portfolio__img">
+				</a>
+				<!--Number3 *-->
+				<a href="voice_recog.html" class="portfolio__item">
+					<img src="images/microphone.jpg" alt="portfolio3" class="portfolio__img">
+				</a>
+				<!--Number4 *-->
+				<a href="trade.html" class="portfolio__item">
+					<img src="images/trade.jpg" alt="portfolio4" class="portfolio__img">
+				</a>
+				<!--Number5 *-->
+				<a href="sudoku.html" class="portfolio__item">
+					<img src="images/sudoku.jpg" alt="portfolio5" class="portfolio__img">
+				</a>
+				<!--Number6 *-->
+				<a href="POS.html" class="portfolio__item">
+					<img src="images/POS.jpg" alt="portfolio6" class="portfolio__img">
+				</a>
+				<!--Number7 *-->
+				<a href="selenium.html" class="portfolio__item">
+					<img src="images/cookies.jpg" alt="portfolio6" class="portfolio__img">
+				</a>
+				<!--Number8-->
+                <a href="hacking.html" class="portfolio__item">
+                    <img src="images/hacking.jpg" alt="" class="portfolio__img">
+                </a>             
+                
+			</div>
+		</section>
+
+		<!--Footer-->
+		<footer class="footer">
+			<a href="mailto:toyourtastecaterers@gmail.com" class="footer__link">Email me here</a>
+			<ul class="social-list">
+				<li class="social-list__item"><a class="social-list__link" href="https://github.com/WarwickClark">
+					<i class="fab fa-github-square"></i></a>
+				</li>
+				<li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/toyour.taste">
+					<i class="fab fa-facebook"></i></a>
+				</li>
+				<li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/warwick-clark-1957591a4/">
+					<i class="fab fa-linkedin"></i></a>
+				</li>
+			</ul>
+		</footer>
+
+		<script src="js/index.js"></script>
+
+	</body>
+</html>

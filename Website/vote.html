@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Voting App</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+				<img src="images/logo_des.png" alt="logo image">
+			</div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--Introduction-->
+		<section class="intro">
+            <h1 class="section__title section__title--intro">
+                Voting <strong>Counter</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Voting Machine</p>
+			<img src="images/vote.jpg" height="300" wigth="300" alt="porfolio image" class="intro__img">
+		</section>
+        
+        <div class="portfolio-item-individual">
+            <hr color="LimeGreen"><br>
+            <img src="images/vote2.jpg" alt=""class="sudoku">
+            <p>
+                I watched the American 2020 election, and became so fustrated at the way that
+                "the greatest democracy in the world" were going about their elections during Covid 19.
+            </p>
+            <p>
+                With all the publicity on voter fraud, hacking of voting machines and allergations 
+                that people were voting with the dead peoples credentials. This made me wonder about 
+                creating a voting app that could beat the current Amercan system.
+            </p>
+			<p>
+                I started by making a voting machine using Tkinter as not to rely on web based tech, 
+                but rather a desktop app that was not connected to the internet. The sytem would show the candidates who were available for voting, tally votes and show a pie chart illustrating the percentages.
+            </p>
+            <p>
+                Two points that I would add to this project is a user database that uses personel 
+                credentials as well as facial recognition to identify that the voter is the correct person. 
+                I would also like to create a better security system to prevent code tampering.
+            </p>
+            <br>
+            <p><a href="https://github.com/WarwickClark/Voting-system" class="btn_proj">View my code</a>
+                <a href="index.html" class="btn_proj">Back to home</a>
+                <a href="index.html#work" class="btn_proj">Back to Projects</a>
+            </p>
+            <hr color="LimeGreen"><br>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:toyourtastecaterers@gmail.com" class="footer__link">Email me here</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/WarwickClark">
+                    <i class="fab fa-github-square"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/toyour.taste">
+                    <i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/warwick-clark-1957591a4/">
+                    <i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+		<script src="js/index.js"></script>
+		
+	</body>
+</html>

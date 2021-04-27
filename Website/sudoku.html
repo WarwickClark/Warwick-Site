@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sudoku Solver</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+				<img src="images/logo_des.png" alt="logo image">
+			</div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--Introduction-->
+		<section class="intro">
+            <h1 class="section__title section__title--intro">
+                Sudoku <strong>Solver</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Sudoku Solver</p>
+			<img src="images/sudoku1.jpg" height="300" wigth="300" alt="porfolio image" class="intro__img">
+		</section>
+        
+        <div class="portfolio-item-individual">
+            <hr color="LimeGreen"><br>
+            <img src="images/sudoku2.jpg" alt=""class="sudoku">
+            <p>
+                This was one of my early projects. My father and I enjoy doing sudoku 
+                puzzles and competing against one another to see who is faster!
+            </p>
+            <p>
+                This pushed me to investigate if there was a way to automatically
+			     solve any sudoku puzzle, by simply adding in the given values, and eliminating 
+                the incorrect numbers. This lead me to <a href="https://www.tutorialspoint.com/python_data_structure/python_backtracking.htm">backtracking</a>.
+            </p>
+			<p>After some research, trial and error, I was able to create a sudoku solver which 
+                solved any puzzle within just a few seconds. Although my father was proud, he also
+                no longer wants to play sudoku with me anymore!
+            </p>
+            <br>
+            <p><a href="https://github.com/WarwickClark/Sudoku-puzzle-and-solver" class="btn_proj">View my code</a>
+                <a href="index.html" class="btn_proj">Back to home</a>
+                <a href="index.html#work" class="btn_proj">Back to Projects</a>
+            </p>
+            <hr color="LimeGreen"><br>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:toyourtastecaterers@gmail.com" class="footer__link">Email me here</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/WarwickClark">
+                    <i class="fab fa-github-square"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/toyour.taste">
+                    <i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/warwick-clark-1957591a4/">
+                    <i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+		<script src="js/index.js"></script>
+		
+	</body>
+</html>
